@@ -10,8 +10,6 @@ class ShapeFactory : AbstractFactory() {
         return null
     }
 
-    override fun getColor(color: String): Color? {
-        return null
-    }
+    override fun getColor(color: String): Color? = null
 
 }

@@ -1,9 +1,7 @@
 package abstract.factory.pattern
 
 class ColorFactory : AbstractFactory() {
-    override fun getShape(shape: String): Shape? {
-        return null
-    }
+    override fun getShape(shape: String): Shape? = null
 
     override fun getColor(color: String): Color? {
 

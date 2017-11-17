@@ -7,6 +7,7 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 * [Factory Pattern](#factory.pattern)
 * [Abstract Factory Pattern](#abstract.factory.pattern)
 * [Singleton Pattern](#singleton.pattern)
+* [Builder Pattern](#builder.pattern)
 
 
 ## <a name="factory.pattern"/> Factory Pattern
@@ -43,6 +44,18 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 
 #### Implementation
 ![Preview](https://www.tutorialspoint.com/design_pattern/images/singleton_pattern_uml_diagram.jpg)
+
+
+## <a name="builder.pattern"/> Builder Pattern
+
+>Builder pattern builds a complex object using simple objects and using a step by step approach. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+>
+>A Builder class builds the final object step by step. This builder is independent of other objects.
+>
+>**Source:** [tutorialspoint](https://www.tutorialspoint.com/design_pattern/builder_pattern.htm)
+
+#### Implementation
+![Preview](https://www.tutorialspoint.com/design_pattern/images/builder_pattern_uml_diagram.jpg)
 
 
 
