@@ -4,10 +4,12 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 
 ## Table of contents
 
-* [Factory Pattern](factory.pattern)
+* [Factory Pattern](#factory.pattern)
+* [Abstract Factory Pattern](#abstract.factory.pattern)
+* [Singleton Pattern](#singleton.pattern)
 
 
-### Factory Pattern
+## <a name="factory.pattern"/> Factory Pattern
 
 > Factory pattern is one of the most used design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
 > 
@@ -19,7 +21,7 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 ![Preview](https://www.tutorialspoint.com/design_pattern/images/factory_pattern_uml_diagram.jpg)
 
 
-### Abstract Factory Pattern
+## <a name="abstract.factory.pattern"/> Abstract Factory Pattern
 
 >Abstract Factory patterns work around a super-factory which creates other factories. This factory is also called as factory of factories. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
 >
@@ -31,7 +33,7 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 ![Preview](https://www.tutorialspoint.com/design_pattern/images/abstractfactory_pattern_uml_diagram.jpg)
 
 
-### Singleton Pattern
+## <a name="singleton.pattern"/> Singleton Pattern
 
 >Singleton pattern is one of the simplest design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
 >
