@@ -8,6 +8,7 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 * [Abstract Factory Pattern](#abstract.factory.pattern)
 * [Singleton Pattern](#singleton.pattern)
 * [Builder Pattern](#builder.pattern)
+* [Prototype Pattern](#prototype.pattern)
 
 
 ## <a name="factory.pattern"/> Factory Pattern
@@ -56,6 +57,18 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 
 #### Implementation
 ![Preview](https://www.tutorialspoint.com/design_pattern/images/builder_pattern_uml_diagram.jpg)
+
+
+## <a name="prototype.pattern"/> Prototype Pattern
+
+>Prototype pattern refers to creating duplicate object while keeping performance in mind. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+>
+>This pattern involves implementing a prototype interface which tells to create a clone of the current object. This pattern is used when creation of object directly is costly. For example, an object is to be created after a costly database operation. We can cache the object, returns its clone on next request and update the database as and when needed thus reducing database calls.
+>
+>**Source:** [tutorialspoint](https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm)
+
+#### Implementation
+![Preview](https://www.tutorialspoint.com/design_pattern/images/prototype_pattern_uml_diagram.jpg)
 
 
 
