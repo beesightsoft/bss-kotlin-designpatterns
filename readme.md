@@ -9,6 +9,7 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 * [Singleton Pattern](#singleton.pattern)
 * [Builder Pattern](#builder.pattern)
 * [Prototype Pattern](#prototype.pattern)
+* [Adapter Pattern](#adapter.pattern)
 
 
 ## <a name="factory.pattern"/> Factory Pattern
@@ -69,6 +70,20 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 
 #### Implementation
 ![Preview](https://www.tutorialspoint.com/design_pattern/images/prototype_pattern_uml_diagram.jpg)
+
+
+## <a name="adapter.pattern"/> Adapter Pattern
+
+>Adapter pattern works as a bridge between two incompatible interfaces. This type of design pattern comes under structural pattern as this pattern combines the capability of two independent interfaces.
+>
+>This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces. A real life example could be a case of card reader which acts as an adapter between memory card and a laptop. You plugin the memory card into card reader and card reader into the laptop so that memory card can be read via laptop.
+>
+>We are demonstrating use of Adapter pattern via following example in which an audio player device can play mp3 files only and wants to use an advanced audio player capable of playing vlc and mp4 files.
+>
+>**Source:** [tutorialspoint](https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm)
+
+#### Implementation
+![Preview](https://www.tutorialspoint.com/design_pattern/images/adapter_pattern_uml_diagram.jpg)
 
 
 
