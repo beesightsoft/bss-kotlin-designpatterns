@@ -11,6 +11,7 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 * [Prototype Pattern](#prototype.pattern)
 * [Adapter Pattern](#adapter.pattern)
 * [Bridge Pattern](#bridge.pattern)
+* [Filter Pattern](#filter.pattern)
 
 
 ## <a name="factory.pattern"/> Factory Pattern
@@ -99,6 +100,16 @@ This repo demonstrate how to implement design pattern with kotlin follow https:/
 
 #### Implementation
 ![Preview](https://www.tutorialspoint.com/design_pattern/images/bridge_pattern_uml_diagram.jpg)
+
+
+## <a name="filter.pattern"/> Filter Pattern
+
+>Filter pattern or Criteria pattern is a design pattern that enables developers to filter a set of objects using different criteria and chaining them in a decoupled way through logical operations. This type of design pattern comes under structural pattern as this pattern combines multiple criteria to obtain single criteria.
+>
+>**Source:** [tutorialspoint](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
+
+#### Implementation
+![Preview](https://www.tutorialspoint.com/design_pattern/images/filter_pattern_uml_diagram.jpg)
 
 
 
